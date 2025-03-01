@@ -10,11 +10,7 @@ const config: Config = {
   theme: {
     extend: {}
   },
-  plugins: [mtConfig({
-    colors: {
-      secondary: {default: "#ff0000"}
-    }
-  })],
+  plugins: [mtConfig],
 };
 
 export default config;
